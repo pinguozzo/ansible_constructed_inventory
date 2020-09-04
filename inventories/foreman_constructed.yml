@@ -1,0 +1,11 @@
+plugin: constructed
+strict: False
+compose:
+     ansible_host: foreman_ip
+keyed_groups:
+  -  prefix: ""
+     separator: ""
+     key: foreman_subscription_facet_attributes.registered_through
+  -  prefix: ""
+     separator: ""
+     key: foreman_content_facet_attributes.lifecycle_environment_name
