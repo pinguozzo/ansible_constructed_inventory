@@ -1,4 +1,4 @@
-plugin: foreman
+plugin: theforeman.foreman.foreman
 validate_certs: False
 want_facts: True
 want_hostcollections: True
