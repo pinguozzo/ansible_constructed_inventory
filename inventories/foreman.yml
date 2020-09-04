@@ -1,7 +1,7 @@
 plugin: foreman
 validate_certs: False
+want_facts: yes
+want_params: yes
 
 # plugin: theforeman.foreman.foreman
-# want_facts: True
 # want_hostcollections: True
-# want_params: True
